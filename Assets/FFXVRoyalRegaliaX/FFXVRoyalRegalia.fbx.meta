@@ -1,0 +1,859 @@
+fileFormatVersion: 2
+guid: 5914383459811af468e22f54f91752af
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body
+    100004: BonetRoof
+    100006: C Arm A
+    100008: C Arm B
+    100010: C Arm C
+    100012: C Arm D
+    100014: C Arm E
+    100016: C Arm F
+    100018: C Arm G
+    100020: C Arm G Part
+    100022: C Arm G PartRot
+    100024: C Arm H
+    100026: C Body
+    100028: C Bodyframe
+    100030: C ClockA
+    100032: C ClockB
+    100034: C CoolerBox
+    100036: C DrinkHolder
+    100038: C fuel
+    100040: C Gas
+    100042: C Monitor
+    100044: C RearArmrest
+    100046: C Rposition
+    100048: C SpeedometerA
+    100050: C SpeedometerB
+    100052: C SpeedometerC
+    100054: C Steering
+    100056: C SteeringOff
+    100058: C TachometerA
+    100060: C TachometerB
+    100062: C TachometerC
+    100064: C TachometerD
+    100066: C TachometerE
+    100068: C TonneauCover
+    100070: C Trunk A
+    100072: C Trunk B
+    100074: C Trunk C
+    100076: C Winkerswitch
+    100078: C Wiper A
+    100080: C Wiper B
+    100082: C WiperBlade A
+    100084: C WiperBlade B
+    100086: C WiperBladeBend A
+    100088: C WiperBladeBend B
+    100090: C WiperBladeInterval A
+    100092: C WiperBladeInterval B
+    100094: C WiperPart A
+    100096: C WiperPart B
+    100098: Chassis
+    100100: //RootNode
+    100102: FrameDetails
+    100104: FrameInside
+    100106: GlassInside
+    100108: GlassOutside
+    100110: Interest
+    100112: Interest_end
+    100114: Interior
+    100116: L Bonnet
+    100118: L Curve B
+    100120: L DamperA
+    100122: L DamperB
+    100124: L DamperC
+    100126: L DamperD
+    100128: L DamperE
+    100130: L DamperF
+    100132: L DamperG
+    100134: L DamperH
+    100136: L DrinkHolderA
+    100138: L DrinkHolderB
+    100140: L EngineCover
+    100142: L Fdisk
+    100144: L Fdoor
+    100146: L FdoorRot
+    100148: L Fposition
+    100150: L Fwheel
+    100152: L OilCap
+    100154: L Rdisk
+    100156: L Rdoor
+    100158: L RdoorRot
+    100160: L Rposition
+    100162: L Rwheel
+    100164: L Window A
+    100166: L Window B
+    100168: L Window C
+    100170: L WindowInterval A
+    100172: L WindowInterval B
+    100174: L WindowInterval C
+    100176: L WindowPillar A
+    100178: L WindowPillar B
+    100180: L WindowPillarInterval A
+    100182: L WindowPillarInterval B
+    100184: LgihtCoversGlass
+    100186: Lights
+    100188: R Bonnet
+    100190: R Curve B
+    100192: R DamperA
+    100194: R DamperB
+    100196: R DamperC
+    100198: R DamperD
+    100200: R DamperE
+    100202: R DamperF
+    100204: R DamperG
+    100206: R DamperH
+    100208: R DrinkHolderA
+    100210: R DrinkHolderB
+    100212: R EngineCover
+    100214: R Fdisk
+    100216: R Fdoor
+    100218: R FdoorRot
+    100220: R Fposition
+    100222: R Fwheel
+    100224: R OilCap
+    100226: R Rdisk
+    100228: R Rdoor
+    100230: R RdoorRot
+    100232: R Rposition
+    100234: R Rwheel
+    100236: R Window A
+    100238: R Window B
+    100240: R Window C
+    100242: R WindowInterval A
+    100244: R WindowInterval B
+    100246: R WindowInterval C
+    100248: R WindowPillar A
+    100250: R WindowPillar B
+    100252: R WindowPillarInterval A
+    100254: R WindowPillarInterval B
+    100256: Tires
+    100258: unused c arm a end
+    100260: unused c arm a end_end
+    100262: unused c arm b end
+    100264: unused c arm b end_end
+    100266: unused c arm c end
+    100268: unused c arm c end_end
+    100270: unused c arm d end
+    100272: unused c arm d end_end
+    100274: unused c arm e end
+    100276: unused c arm e end_end
+    100278: unused c arm f end
+    100280: unused c arm f end_end
+    100282: unused c arm g end
+    100284: unused c arm g end_end
+    100286: unused c arm g part end
+    100288: unused c arm g part end_end
+    100290: unused c arm g partrot end
+    100292: unused c arm g partrot end_end
+    100294: unused c arm h end
+    100296: unused c arm h end_end
+    100298: unused c clocka end
+    100300: unused c clocka end_end
+    100302: unused c clockb end
+    100304: unused c clockb end_end
+    100306: unused c coolerbox end
+    100308: unused c coolerbox end_end
+    100310: unused c drinkholder end
+    100312: unused c drinkholder end_end
+    100314: unused c fuel end
+    100316: unused c fuel end_end
+    100318: unused c gas end
+    100320: unused c gas end_end
+    100322: unused c monitor end
+    100324: unused c monitor end_end
+    100326: unused c reararmrest end
+    100328: unused c reararmrest end_end
+    100330: unused c rpositionend
+    100332: unused c rpositionend_end
+    100334: unused c speedometera end
+    100336: unused c speedometera end_end
+    100338: unused c speedometerb end
+    100340: unused c speedometerb end_end
+    100342: unused c speedometerc end
+    100344: unused c speedometerc end_end
+    100346: unused c steeringend
+    100348: unused c steeringend_end
+    100350: unused c steeringoffend
+    100352: unused c steeringoffend_end
+    100354: unused c tachometera end
+    100356: unused c tachometera end_end
+    100358: unused c tachometerb end
+    100360: unused c tachometerb end_end
+    100362: unused c tachometerc end
+    100364: unused c tachometerc end_end
+    100366: unused c tachometerd end
+    100368: unused c tachometerd end_end
+    100370: unused c tachometere end
+    100372: unused c tachometere end_end
+    100374: unused c tonneaucover end
+    100376: unused c tonneaucover end_end
+    100378: unused c trunk b end
+    100380: unused c trunk b end_end
+    100382: unused c trunk c end
+    100384: unused c trunk c end_end
+    100386: unused c winkerswitchend
+    100388: unused c winkerswitchend_end
+    100390: unused c wiper a end
+    100392: unused c wiper a end_end
+    100394: unused c wiper b end
+    100396: unused c wiper b end_end
+    100398: unused c wiperblade a end
+    100400: unused c wiperblade a end_end
+    100402: unused c wiperblade b end
+    100404: unused c wiperblade b end_end
+    100406: unused c wiperbladebend a end
+    100408: unused c wiperbladebend a end_end
+    100410: unused c wiperbladebend b end
+    100412: unused c wiperbladebend b end_end
+    100414: unused c wiperbladeinterval a end
+    100416: unused c wiperbladeinterval a end_end
+    100418: unused c wiperbladeinterval b end
+    100420: unused c wiperbladeinterval b end_end
+    100422: unused c wiperpart a end
+    100424: unused c wiperpart a end_end
+    100426: unused c wiperpart b end
+    100428: unused c wiperpart b end_end
+    100430: unused l bonnet end
+    100432: unused l bonnet end_end
+    100434: unused l curve b end
+    100436: unused l curve b end_end
+    100438: unused l dampera end
+    100440: unused l dampera end_end
+    100442: unused l damperb end
+    100444: unused l damperb end_end
+    100446: unused l damperc end
+    100448: unused l damperc end_end
+    100450: unused l damperd end
+    100452: unused l damperd end_end
+    100454: unused l dampere end
+    100456: unused l dampere end_end
+    100458: unused l damperf end
+    100460: unused l damperf end_end
+    100462: unused l damperg end
+    100464: unused l damperg end_end
+    100466: unused l damperh end
+    100468: unused l damperh end_end
+    100470: unused l drinkholdera end
+    100472: unused l drinkholdera end_end
+    100474: unused l drinkholderb end
+    100476: unused l drinkholderb end_end
+    100478: unused l enginecover end
+    100480: unused l enginecover end_end
+    100482: unused l fdiskend
+    100484: unused l fdiskend_end
+    100486: unused l fdoorend
+    100488: unused l fdoorend_end
+    100490: unused l fdoorrotend
+    100492: unused l fdoorrotend_end
+    100494: unused l fpositionend
+    100496: unused l fpositionend_end
+    100498: unused l fwheelend
+    100500: unused l fwheelend_end
+    100502: unused l oilcap end
+    100504: unused l oilcap end_end
+    100506: unused l rdiskend
+    100508: unused l rdiskend_end
+    100510: unused l rdoorend
+    100512: unused l rdoorend_end
+    100514: unused l rdoorrotend
+    100516: unused l rdoorrotend_end
+    100518: unused l rpositionend
+    100520: unused l rpositionend_end
+    100522: unused l rwheelend
+    100524: unused l rwheelend_end
+    100526: unused l window a end
+    100528: unused l window a end_end
+    100530: unused l window b end
+    100532: unused l window b end_end
+    100534: unused l window c end
+    100536: unused l window c end_end
+    100538: unused l windowinterval a end
+    100540: unused l windowinterval a end_end
+    100542: unused l windowinterval b end
+    100544: unused l windowinterval b end_end
+    100546: unused l windowinterval c end
+    100548: unused l windowinterval c end_end
+    100550: unused l windowpillar a end
+    100552: unused l windowpillar a end_end
+    100554: unused l windowpillar b end
+    100556: unused l windowpillar b end_end
+    100558: unused l windowpillarinterval a end
+    100560: unused l windowpillarinterval a end_end
+    100562: unused l windowpillarinterval b end
+    100564: unused l windowpillarinterval b end_end
+    100566: unused proxy
+    100568: unused proxy_end
+    100570: unused r bonnet end
+    100572: unused r bonnet end_end
+    100574: unused r curve b end
+    100576: unused r curve b end_end
+    100578: unused r dampera end
+    100580: unused r dampera end_end
+    100582: unused r damperb end
+    100584: unused r damperb end_end
+    100586: unused r damperc end
+    100588: unused r damperc end_end
+    100590: unused r damperd end
+    100592: unused r damperd end_end
+    100594: unused r dampere end
+    100596: unused r dampere end_end
+    100598: unused r damperf end
+    100600: unused r damperf end_end
+    100602: unused r damperg end
+    100604: unused r damperg end_end
+    100606: unused r damperh end
+    100608: unused r damperh end_end
+    100610: unused r drinkholdera end
+    100612: unused r drinkholdera end_end
+    100614: unused r drinkholderb end
+    100616: unused r drinkholderb end_end
+    100618: unused r enginecover end
+    100620: unused r enginecover end_end
+    100622: unused r fdiskend
+    100624: unused r fdiskend_end
+    100626: unused r fdoorend
+    100628: unused r fdoorend_end
+    100630: unused r fdoorrotend
+    100632: unused r fdoorrotend_end
+    100634: unused r fpositionend
+    100636: unused r fpositionend_end
+    100638: unused r fwheelend
+    100640: unused r fwheelend_end
+    100642: unused r oilcap end
+    100644: unused r oilcap end_end
+    100646: unused r rdiskend
+    100648: unused r rdiskend_end
+    100650: unused r rdoorend
+    100652: unused r rdoorend_end
+    100654: unused r rdoorrotend
+    100656: unused r rdoorrotend_end
+    100658: unused r rpositionend
+    100660: unused r rpositionend_end
+    100662: unused r rwheelend
+    100664: unused r rwheelend_end
+    100666: unused r window a end
+    100668: unused r window a end_end
+    100670: unused r window b end
+    100672: unused r window b end_end
+    100674: unused r window c end
+    100676: unused r window c end_end
+    100678: unused r windowinterval a end
+    100680: unused r windowinterval a end_end
+    100682: unused r windowinterval b end
+    100684: unused r windowinterval b end_end
+    100686: unused r windowinterval c end
+    100688: unused r windowinterval c end_end
+    100690: unused r windowpillar a end
+    100692: unused r windowpillar a end_end
+    100694: unused r windowpillar b end
+    100696: unused r windowpillar b end_end
+    100698: unused r windowpillarinterval a end
+    100700: unused r windowpillarinterval a end_end
+    100702: unused r windowpillarinterval b end
+    100704: unused r windowpillarinterval b end_end
+    100706: unused trans
+    400000: Armature
+    400002: Body
+    400004: BonetRoof
+    400006: C Arm A
+    400008: C Arm B
+    400010: C Arm C
+    400012: C Arm D
+    400014: C Arm E
+    400016: C Arm F
+    400018: C Arm G
+    400020: C Arm G Part
+    400022: C Arm G PartRot
+    400024: C Arm H
+    400026: C Body
+    400028: C Bodyframe
+    400030: C ClockA
+    400032: C ClockB
+    400034: C CoolerBox
+    400036: C DrinkHolder
+    400038: C fuel
+    400040: C Gas
+    400042: C Monitor
+    400044: C RearArmrest
+    400046: C Rposition
+    400048: C SpeedometerA
+    400050: C SpeedometerB
+    400052: C SpeedometerC
+    400054: C Steering
+    400056: C SteeringOff
+    400058: C TachometerA
+    400060: C TachometerB
+    400062: C TachometerC
+    400064: C TachometerD
+    400066: C TachometerE
+    400068: C TonneauCover
+    400070: C Trunk A
+    400072: C Trunk B
+    400074: C Trunk C
+    400076: C Winkerswitch
+    400078: C Wiper A
+    400080: C Wiper B
+    400082: C WiperBlade A
+    400084: C WiperBlade B
+    400086: C WiperBladeBend A
+    400088: C WiperBladeBend B
+    400090: C WiperBladeInterval A
+    400092: C WiperBladeInterval B
+    400094: C WiperPart A
+    400096: C WiperPart B
+    400098: Chassis
+    400100: //RootNode
+    400102: FrameDetails
+    400104: FrameInside
+    400106: GlassInside
+    400108: GlassOutside
+    400110: Interest
+    400112: Interest_end
+    400114: Interior
+    400116: L Bonnet
+    400118: L Curve B
+    400120: L DamperA
+    400122: L DamperB
+    400124: L DamperC
+    400126: L DamperD
+    400128: L DamperE
+    400130: L DamperF
+    400132: L DamperG
+    400134: L DamperH
+    400136: L DrinkHolderA
+    400138: L DrinkHolderB
+    400140: L EngineCover
+    400142: L Fdisk
+    400144: L Fdoor
+    400146: L FdoorRot
+    400148: L Fposition
+    400150: L Fwheel
+    400152: L OilCap
+    400154: L Rdisk
+    400156: L Rdoor
+    400158: L RdoorRot
+    400160: L Rposition
+    400162: L Rwheel
+    400164: L Window A
+    400166: L Window B
+    400168: L Window C
+    400170: L WindowInterval A
+    400172: L WindowInterval B
+    400174: L WindowInterval C
+    400176: L WindowPillar A
+    400178: L WindowPillar B
+    400180: L WindowPillarInterval A
+    400182: L WindowPillarInterval B
+    400184: LgihtCoversGlass
+    400186: Lights
+    400188: R Bonnet
+    400190: R Curve B
+    400192: R DamperA
+    400194: R DamperB
+    400196: R DamperC
+    400198: R DamperD
+    400200: R DamperE
+    400202: R DamperF
+    400204: R DamperG
+    400206: R DamperH
+    400208: R DrinkHolderA
+    400210: R DrinkHolderB
+    400212: R EngineCover
+    400214: R Fdisk
+    400216: R Fdoor
+    400218: R FdoorRot
+    400220: R Fposition
+    400222: R Fwheel
+    400224: R OilCap
+    400226: R Rdisk
+    400228: R Rdoor
+    400230: R RdoorRot
+    400232: R Rposition
+    400234: R Rwheel
+    400236: R Window A
+    400238: R Window B
+    400240: R Window C
+    400242: R WindowInterval A
+    400244: R WindowInterval B
+    400246: R WindowInterval C
+    400248: R WindowPillar A
+    400250: R WindowPillar B
+    400252: R WindowPillarInterval A
+    400254: R WindowPillarInterval B
+    400256: Tires
+    400258: unused c arm a end
+    400260: unused c arm a end_end
+    400262: unused c arm b end
+    400264: unused c arm b end_end
+    400266: unused c arm c end
+    400268: unused c arm c end_end
+    400270: unused c arm d end
+    400272: unused c arm d end_end
+    400274: unused c arm e end
+    400276: unused c arm e end_end
+    400278: unused c arm f end
+    400280: unused c arm f end_end
+    400282: unused c arm g end
+    400284: unused c arm g end_end
+    400286: unused c arm g part end
+    400288: unused c arm g part end_end
+    400290: unused c arm g partrot end
+    400292: unused c arm g partrot end_end
+    400294: unused c arm h end
+    400296: unused c arm h end_end
+    400298: unused c clocka end
+    400300: unused c clocka end_end
+    400302: unused c clockb end
+    400304: unused c clockb end_end
+    400306: unused c coolerbox end
+    400308: unused c coolerbox end_end
+    400310: unused c drinkholder end
+    400312: unused c drinkholder end_end
+    400314: unused c fuel end
+    400316: unused c fuel end_end
+    400318: unused c gas end
+    400320: unused c gas end_end
+    400322: unused c monitor end
+    400324: unused c monitor end_end
+    400326: unused c reararmrest end
+    400328: unused c reararmrest end_end
+    400330: unused c rpositionend
+    400332: unused c rpositionend_end
+    400334: unused c speedometera end
+    400336: unused c speedometera end_end
+    400338: unused c speedometerb end
+    400340: unused c speedometerb end_end
+    400342: unused c speedometerc end
+    400344: unused c speedometerc end_end
+    400346: unused c steeringend
+    400348: unused c steeringend_end
+    400350: unused c steeringoffend
+    400352: unused c steeringoffend_end
+    400354: unused c tachometera end
+    400356: unused c tachometera end_end
+    400358: unused c tachometerb end
+    400360: unused c tachometerb end_end
+    400362: unused c tachometerc end
+    400364: unused c tachometerc end_end
+    400366: unused c tachometerd end
+    400368: unused c tachometerd end_end
+    400370: unused c tachometere end
+    400372: unused c tachometere end_end
+    400374: unused c tonneaucover end
+    400376: unused c tonneaucover end_end
+    400378: unused c trunk b end
+    400380: unused c trunk b end_end
+    400382: unused c trunk c end
+    400384: unused c trunk c end_end
+    400386: unused c winkerswitchend
+    400388: unused c winkerswitchend_end
+    400390: unused c wiper a end
+    400392: unused c wiper a end_end
+    400394: unused c wiper b end
+    400396: unused c wiper b end_end
+    400398: unused c wiperblade a end
+    400400: unused c wiperblade a end_end
+    400402: unused c wiperblade b end
+    400404: unused c wiperblade b end_end
+    400406: unused c wiperbladebend a end
+    400408: unused c wiperbladebend a end_end
+    400410: unused c wiperbladebend b end
+    400412: unused c wiperbladebend b end_end
+    400414: unused c wiperbladeinterval a end
+    400416: unused c wiperbladeinterval a end_end
+    400418: unused c wiperbladeinterval b end
+    400420: unused c wiperbladeinterval b end_end
+    400422: unused c wiperpart a end
+    400424: unused c wiperpart a end_end
+    400426: unused c wiperpart b end
+    400428: unused c wiperpart b end_end
+    400430: unused l bonnet end
+    400432: unused l bonnet end_end
+    400434: unused l curve b end
+    400436: unused l curve b end_end
+    400438: unused l dampera end
+    400440: unused l dampera end_end
+    400442: unused l damperb end
+    400444: unused l damperb end_end
+    400446: unused l damperc end
+    400448: unused l damperc end_end
+    400450: unused l damperd end
+    400452: unused l damperd end_end
+    400454: unused l dampere end
+    400456: unused l dampere end_end
+    400458: unused l damperf end
+    400460: unused l damperf end_end
+    400462: unused l damperg end
+    400464: unused l damperg end_end
+    400466: unused l damperh end
+    400468: unused l damperh end_end
+    400470: unused l drinkholdera end
+    400472: unused l drinkholdera end_end
+    400474: unused l drinkholderb end
+    400476: unused l drinkholderb end_end
+    400478: unused l enginecover end
+    400480: unused l enginecover end_end
+    400482: unused l fdiskend
+    400484: unused l fdiskend_end
+    400486: unused l fdoorend
+    400488: unused l fdoorend_end
+    400490: unused l fdoorrotend
+    400492: unused l fdoorrotend_end
+    400494: unused l fpositionend
+    400496: unused l fpositionend_end
+    400498: unused l fwheelend
+    400500: unused l fwheelend_end
+    400502: unused l oilcap end
+    400504: unused l oilcap end_end
+    400506: unused l rdiskend
+    400508: unused l rdiskend_end
+    400510: unused l rdoorend
+    400512: unused l rdoorend_end
+    400514: unused l rdoorrotend
+    400516: unused l rdoorrotend_end
+    400518: unused l rpositionend
+    400520: unused l rpositionend_end
+    400522: unused l rwheelend
+    400524: unused l rwheelend_end
+    400526: unused l window a end
+    400528: unused l window a end_end
+    400530: unused l window b end
+    400532: unused l window b end_end
+    400534: unused l window c end
+    400536: unused l window c end_end
+    400538: unused l windowinterval a end
+    400540: unused l windowinterval a end_end
+    400542: unused l windowinterval b end
+    400544: unused l windowinterval b end_end
+    400546: unused l windowinterval c end
+    400548: unused l windowinterval c end_end
+    400550: unused l windowpillar a end
+    400552: unused l windowpillar a end_end
+    400554: unused l windowpillar b end
+    400556: unused l windowpillar b end_end
+    400558: unused l windowpillarinterval a end
+    400560: unused l windowpillarinterval a end_end
+    400562: unused l windowpillarinterval b end
+    400564: unused l windowpillarinterval b end_end
+    400566: unused proxy
+    400568: unused proxy_end
+    400570: unused r bonnet end
+    400572: unused r bonnet end_end
+    400574: unused r curve b end
+    400576: unused r curve b end_end
+    400578: unused r dampera end
+    400580: unused r dampera end_end
+    400582: unused r damperb end
+    400584: unused r damperb end_end
+    400586: unused r damperc end
+    400588: unused r damperc end_end
+    400590: unused r damperd end
+    400592: unused r damperd end_end
+    400594: unused r dampere end
+    400596: unused r dampere end_end
+    400598: unused r damperf end
+    400600: unused r damperf end_end
+    400602: unused r damperg end
+    400604: unused r damperg end_end
+    400606: unused r damperh end
+    400608: unused r damperh end_end
+    400610: unused r drinkholdera end
+    400612: unused r drinkholdera end_end
+    400614: unused r drinkholderb end
+    400616: unused r drinkholderb end_end
+    400618: unused r enginecover end
+    400620: unused r enginecover end_end
+    400622: unused r fdiskend
+    400624: unused r fdiskend_end
+    400626: unused r fdoorend
+    400628: unused r fdoorend_end
+    400630: unused r fdoorrotend
+    400632: unused r fdoorrotend_end
+    400634: unused r fpositionend
+    400636: unused r fpositionend_end
+    400638: unused r fwheelend
+    400640: unused r fwheelend_end
+    400642: unused r oilcap end
+    400644: unused r oilcap end_end
+    400646: unused r rdiskend
+    400648: unused r rdiskend_end
+    400650: unused r rdoorend
+    400652: unused r rdoorend_end
+    400654: unused r rdoorrotend
+    400656: unused r rdoorrotend_end
+    400658: unused r rpositionend
+    400660: unused r rpositionend_end
+    400662: unused r rwheelend
+    400664: unused r rwheelend_end
+    400666: unused r window a end
+    400668: unused r window a end_end
+    400670: unused r window b end
+    400672: unused r window b end_end
+    400674: unused r window c end
+    400676: unused r window c end_end
+    400678: unused r windowinterval a end
+    400680: unused r windowinterval a end_end
+    400682: unused r windowinterval b end
+    400684: unused r windowinterval b end_end
+    400686: unused r windowinterval c end
+    400688: unused r windowinterval c end_end
+    400690: unused r windowpillar a end
+    400692: unused r windowpillar a end_end
+    400694: unused r windowpillar b end
+    400696: unused r windowpillar b end_end
+    400698: unused r windowpillarinterval a end
+    400700: unused r windowpillarinterval a end_end
+    400702: unused r windowpillarinterval b end
+    400704: unused r windowpillarinterval b end_end
+    400706: unused trans
+    2100000: UMat_Glass
+    2100002: UMat_Lights
+    2100004: UMat_FrameDetails
+    2100006: UMat_Interior
+    2100008: UMat_Tires
+    2100010: UMat_Body
+    2100012: UMat_Chassis
+    4300000: GlassOutside
+    4300002: GlassInside
+    4300004: LgihtCoversGlass
+    4300006: Lights
+    4300008: FrameDetails
+    4300010: FrameInside
+    4300012: Interior
+    4300014: Tires
+    4300016: BonetRoof
+    4300018: Body
+    4300020: Chassis
+    9500000: //RootNode
+    13700000: Body
+    13700002: BonetRoof
+    13700004: Chassis
+    13700006: FrameDetails
+    13700008: FrameInside
+    13700010: GlassInside
+    13700012: GlassOutside
+    13700014: Interior
+    13700016: LgihtCoversGlass
+    13700018: Lights
+    13700020: Tires
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UMat_Body
+    second: {fileID: 2100000, guid: 0983044be04189c49aabbec0bcfd8482, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UMat_Chassis
+    second: {fileID: 2100000, guid: e53bbb433095e9444a04e48483f577a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UMat_FrameDetails
+    second: {fileID: 2100000, guid: 59a541abfbc92184c87b4ecad6532fbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UMat_Glass
+    second: {fileID: 2100000, guid: 373851eebc094d94498cc0c958ccc5d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UMat_Interior
+    second: {fileID: 2100000, guid: b68dd866651ca804ab2a84e9b6c565b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UMat_Lights
+    second: {fileID: 2100000, guid: 1f61aa8d2fab15b4ea8eb3b928cf2f93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UMat_Tires
+    second: {fileID: 2100000, guid: 6deab62324150a14db51f890d19f1bad, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
